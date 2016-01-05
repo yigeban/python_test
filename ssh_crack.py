@@ -44,7 +44,7 @@ def main():
 	for line in f.readlines():
 		if Found:
 			print "[+] Exting:Password Found"
-			exit(0)
+			break
 			if Fails > 5:
 				print "[!] Exting:Too Many Socket Timeouts"
 				exit(0)
