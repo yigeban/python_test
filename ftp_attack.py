@@ -30,7 +30,6 @@ def bruteLogin(hostname,user_pwd_file):
 		except Exception as e:
 			pass
 	print('\n[-] Could not brute force FTP credentials')
-	print"yy"
 	return (None,None)
 
 def returnDefault(ftp):
